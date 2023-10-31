@@ -1,7 +1,31 @@
 Package: CentralDogmaR
 Title: PKG_TITLE
 Version: 0.0.0.9000
+<<<<<<< HEAD
 Authors@R: person('AUTHOR_FIRST', 'AUTHOR_LAST', email = 'AUTHOR@MAIL.COM', role = c('cre', 'aut'))
+=======
+Author:
+  c(person(given = "Anton",
+           family = "Wang",
+           role = c("aut", "cre"),
+           email = "your@email.com"), 
+    person(given = "Oscar",
+           family = "Ward",
+           role = "aut",
+           email = "s193775@dtu.dk"),
+    person(given = "Jeppe",
+           family = "Mikkelsen",
+           role = "aut",
+           email = "s213426@dtu.dk"),
+    person(given = "Line",
+           family = "Henriksen",
+           role = "aut",
+           email = "s184242@dtu.dk"),
+    person(given = "Johan",
+           family = "staffeldt",
+           role = "aut",
+           email = "s225001@dtu.dk"))
+>>>>>>> 087b058076f0aa1c188df94b8549a2fd7b607bf6
 Description: PKG_DESC.
 License: MIT + file LICENSE
 Imports: 

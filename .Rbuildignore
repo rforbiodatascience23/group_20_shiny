@@ -6,3 +6,7 @@ dev_history.R
 $run_dev.*
 ^.here$
 ^LICENSE\.md$
+<<<<<<< HEAD
+=======
+^README\.Rmd$
+>>>>>>> 087b058076f0aa1c188df94b8549a2fd7b607bf6
