@@ -10,3 +10,5 @@ $run_dev.*
 =======
 ^README\.Rmd$
 >>>>>>> 087b058076f0aa1c188df94b8549a2fd7b607bf6
+^app\.R$
+^rsconnect$

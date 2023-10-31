@@ -1,33 +1,21 @@
 Package: CentralDogmaR
 Title: PKG_TITLE
 Version: 0.0.0.9000
-Author:
-  c(person(given = "Anton",
-           family = "Wang",
-           role = c("aut", "cre"),
-           email = "your@email.com"), 
-    person(given = "Oscar",
-           family = "Ward",
-           role = "aut",
-           email = "s193775@dtu.dk"),
-    person(given = "Jeppe",
-           family = "Mikkelsen",
-           role = "aut",
-           email = "s213426@dtu.dk"),
-    person(given = "Line",
-           family = "Henriksen",
-           role = "aut",
-           email = "s184242@dtu.dk"),
-    person(given = "Johan",
-           family = "staffeldt",
-           role = "aut",
-           email = "s225001@dtu.dk"))
+Author: c(person(given = "Anton", family = "Wang", role = c("aut", "cre"),
+    email = "your@email.com"), person(given = "Oscar", family = "Ward",
+    role = "aut", email = "s193775@dtu.dk"), person(given = "Jeppe",
+    family = "Mikkelsen", role = "aut", email = "s213426@dtu.dk"),
+    person(given = "Line", family = "Henriksen", role = "aut", email =
+    "s184242@dtu.dk"), person(given = "Johan", family = "staffeldt", role
+    = "aut", email = "s225001@dtu.dk"))
 Description: PKG_DESC.
 License: MIT + file LICENSE
 Imports: 
     config (>= 0.3.1),
+    ggplot2,
     golem (>= 0.4.1),
+    group20,
     shiny (>= 1.7.5)
 Encoding: UTF-8
 LazyData: true
-RoxygenNote: 7.1.1
+RoxygenNote: 7.2.3
